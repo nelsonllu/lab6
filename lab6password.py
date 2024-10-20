@@ -1,4 +1,5 @@
 from password_encoder import encode
+from password_decoder import decode
 #import decoder
 
 while True:
@@ -9,7 +10,6 @@ while True:
         encoded_password = encode(password)
         print('Your password has been encoded and stored!')
     if option == '2':
-        #decode encoded password
-        #print msg
+        decoded_password = decode(encoded_password)
     if option == '3':
         break
