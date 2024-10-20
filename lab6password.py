@@ -11,5 +11,6 @@ while True:
         print('Your password has been encoded and stored!')
     if option == '2':
         decoded_password = decode(encoded_password)
+        print(f'The encoded password is {encoded_password}, and the original password is {decoded_password}')
     if option == '3':
         break
